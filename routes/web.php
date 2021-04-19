@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/index', 'ListaTarefaController@index')->name('index');
+Route::get('/', 'ListaTarefaController@index')->name('index');
 Route::post('/tarefa_insert','ListaTarefaController@create')->name('tarefa_insert');
 Route::get('/tarefa_deletar/{id}','ListaTarefaController@delete')->name('tarefa_delete');
 Route::get('/tarefa_view/{id}', 'ListaTarefaController@show')->name('tarefa_view');
 Route::put('/tarefa_atualizar/{id}','ListaTarefaController@update')->name('tarefa_update');
+
+route::get('/index','ListaTarefaController@index2');
 ?>

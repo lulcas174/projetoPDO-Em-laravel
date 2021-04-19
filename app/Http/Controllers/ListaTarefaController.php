@@ -40,5 +40,9 @@ class ListaTarefaController extends Controller
                 return redirect()->route('index');
         }
 
+        public function index2(){
+            return view('view.indexSite.siteIndex');
+        }
+
     }
 
