@@ -17,5 +17,5 @@ Route::get('/tarefa_deletar/{id}','ListaTarefaController@delete')->name('tarefa_
 Route::get('/tarefa_view/{id}', 'ListaTarefaController@show')->name('tarefa_view');
 Route::put('/tarefa_atualizar/{id}','ListaTarefaController@update')->name('tarefa_update');
 
-route::get('/index','ListaTarefaController@index2');
+
 ?>

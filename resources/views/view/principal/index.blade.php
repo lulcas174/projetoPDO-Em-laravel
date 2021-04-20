@@ -21,7 +21,7 @@
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" id="floatingInput" name="tarefa">
                     <label for="floatingInput">Tarefa</label>
-                <div class = "butao">
+                <div class = "botao_div">
                 <button class="btn btn-success">adicionar</button>
                 </div>
                 </div>
